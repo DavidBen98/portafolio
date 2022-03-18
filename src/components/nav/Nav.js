@@ -33,18 +33,28 @@ const Nav = () => {
                 </Link>
                 </li>
                 <li>
-                    <Link to="contact" smooth={true} duration={500}>
+                    <Link to="contact" offset={-100} smooth={true} duration={500}>
                         Contacto
                     </Link>
                 </li>
                 {click && 
                     <div className="active socialResponsive">
-                        <Link to="google.com" smooth={true}>
+                        <a
+                            className="github"
+                            href="https://github.com/DavidBen98"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <AiFillGithub className="icon"/>
-                        </Link>
-                        <Link  to="/contact" smooth={true}>
+                        </a>
+                        <a
+                            className="github"
+                            href="https://www.linkedin.com/in/david-benedette"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <AiFillLinkedin className="icon"/>
-                        </Link>
+                        </a>
                         <Link to="/contact" smooth={true}>
                             <AiTwotoneMail className="icon"/>
                         </Link>

@@ -1,7 +1,7 @@
 .contact{
     display: flex;
     justify-content: center;
-    border-top: 1px solid #fff;
+    border-top: 1px solid var(--color-primary);
 }
 
 .contact-container{
@@ -23,18 +23,6 @@
 
 .message{
     font-family: Smooth;
-}
-
-.contact-social{
-    display: flex;
-    width: 90%;
-    justify-content: center;
-}
-
-.low{
-    text-align: center;
-    font-family: Smooth;
-    margin: 1% 0;
 }
 
 @media screen and (max-width: 600px) {

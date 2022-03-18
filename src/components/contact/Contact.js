@@ -17,13 +17,7 @@ const Contact = () => {
                 <div className="right">
                     <Form/>
                 </div>
-                <div className="contact-social">
-                    <Social/>
-                </div>
-                <div className="low">
-                    <p>David Benedette</p>
-                    <p>All rights reserved ©</p>
-                </div>
+                
             </div>
         </div>
     );

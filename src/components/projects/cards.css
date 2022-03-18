@@ -66,9 +66,9 @@ body{
     font-weight: bold;
     font-size: 1rem;
     margin: 1rem;
-    border: 2px solid var(--color-primary);
+    border: 2px solid #fff;
     background: transparent;
-    color: var(--color-primary);
+    color: #fff;
     border-radius: var(--radius);
     transition: background-color 200ms ease-in, color 200ms ease-in;
 }
@@ -82,7 +82,7 @@ body{
 }
 
 .card:hover .card__btn {
-    background: var(--color-primary);
+    background: var(--color-bg-variant);
     color: white;
 }
 

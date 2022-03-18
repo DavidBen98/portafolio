@@ -7,6 +7,7 @@ import { Route, Routes } from 'react-router-dom';
 import Cards from './components/projects/Cards';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from './components/footer/Footer';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Cards/>
       <About/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

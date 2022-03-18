@@ -15,7 +15,7 @@ const About = () => {
                 <div className="about-right">
                     <h1>Sobre mi</h1>
                     <p>
-                    Soy una persona responsable que le apasiona el fútbol y el desarrollo web. <br/>
+                    Soy una persona responsable y apasionada por el desarrollo web. <br/>
                     Conocí este mundo hace un poco mas de 2 años a través de un amigo. 
                     Desde el momento que vi los problemas que se podían solucionar por medio de código, 
                     supe que me quería dedicar a esto. 

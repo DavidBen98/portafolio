@@ -1,0 +1,19 @@
+.footer{
+    background-color: var(--color-bg-variant);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 1%;
+}
+
+.contact-social{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+.low{
+    text-align: center;
+    font-family: Smooth;
+    margin: 1% 0;
+}

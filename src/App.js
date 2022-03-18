@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/home/Home';
+import Projets from "./components/projects/Projects";
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
+import { Route, Routes } from 'react-router-dom';
+import Cards from './components/projects/Cards';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+
+  AOS.init();
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Cards/>
+      <About/>
+      <Contact/>
     </div>
   );
 }

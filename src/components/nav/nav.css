@@ -1,0 +1,174 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-bg);
+    height: 65px;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 4rem;
+    z-index:10;
+}
+  
+.logo{
+  width:15%;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.nav-menu{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-menu li{
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--color-white);
+  transition: all .5s ease;
+  transition-property: color, border-bottom;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-menu li:after{
+  bottom: 0;
+  left: 0;
+  content: '';
+  position: absolute;
+  width: 80%;
+  margin: 0 10%;
+  height: 1px;
+  background-color: #fff;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.6s ease-out;
+}
+
+.nav-menu li:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-menu li a {
+  color: var(--color-white);
+}
+
+.nav-menu li a:hover, .logo:hover{
+  cursor: pointer;
+}
+
+.social{
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.icon{
+  display: flex;
+  color: var(--color-white);
+}
+
+.btn-cv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: var(--nextui-zIndices-2);
+  background-color: #4db5ff;
+  width: 140px;
+  height:40px;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: var(--color-white);
+  margin-left: 5px;
+}
+
+.hamburger{
+  display:none;
+} 
+
+.socialResponsive:hover{
+  border: none;
+}
+
+svg{
+  margin-left: 5px;
+  height: 30px;
+  width: 30px;
+}
+
+  @media screen and (max-width:640px){
+  .header{
+    padding: 1rem 1rem;
+  }
+
+  .social{
+    display: none;
+  }
+
+  .hamburger{
+    display:block;
+    height: 100%;
+  }
+
+  .nav-menu{
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    left:-100%;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    transition: .3s;
+    z-index: -1;
+    background-color: var(--color-bg);
+  }
+
+  .nav-menu.active{
+    left:0;
+  }
+
+  .nav-menu li{
+    padding: 1rem 0;
+    font-size: 2rem;
+  }
+
+  .socialResponsive{
+    display:flex;
+    width: 50%;
+    justify-content: space-between;
+    border: none;
+  }
+
+  .socialResponsive a svg{
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+  }
+
+  .socialResponsive:hover{
+    border: none;
+  }
+  
+  .logo{
+    display: none;
+  }
+
+  .socialResponsive:hover{
+    cursor: pointer;
+  }
+
+  .photo{
+    width: 240px;
+    height: 240px;
+  }
+}

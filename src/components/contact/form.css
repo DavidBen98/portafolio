@@ -1,0 +1,50 @@
+input[type="text"],
+input[type="email"],
+textarea{
+    border: thin solid #dedede;
+    border-radius: 0.25rem;
+    padding: .75rem;
+    margin-bottom: 1rem;
+    outline: none;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: transparent;
+    color: #fff;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+textarea{
+    font-family: sans-serif;
+    resize: none;
+    height: 120px;
+}
+
+input[type="submit"]{
+    border: thin solid #fff;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem 0 0;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--color-bg);
+    background-color: #eee;
+    color:#fff;
+    background-color: var(--color-bg);
+    width: 100%;
+}
+
+input[type="submit"]:hover{
+    background-color: var(--color-bg-variant);
+}

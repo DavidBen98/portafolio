@@ -5,10 +5,10 @@ import Cards from "../projects/Cards";
 
 const Home = () => {
     return ( 
-        <>
+        <section>
             <Nav/>
             <Video />
-        </>
+        </section>
     );
 }
  

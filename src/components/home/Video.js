@@ -1,6 +1,5 @@
 import "./video.css";
 import spaceVideo from "../../assets/space.mp4";
-import photo from "../../assets/fondo.png";
 import 'animate.css';
 import foto from "../../assets/perfil.jpg";
 
@@ -16,7 +15,7 @@ const Video = () => {
                 </div>
                 <div className="text animate__animated animate__bounceInDown">
                     <h1 className="">David Benedette</h1>
-                    <p>Frontend Developer</p>
+                    <p>Desarrollador Frontend</p>
                     <p style={{font: "1.1rem Smooch"}}>React | JavaScript | CSS </p>
                 </div>
             </div>

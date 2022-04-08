@@ -1,17 +1,17 @@
 import "./contact.css";
 import Form from "./Form";
-import Social from "../home/Social";
 
 const Contact = () => {
     return ( 
-        <div className="contact" data-aos="fade-right" data-aos-duration="2000">
+        <section className="contact" data-aos="fade-left" data-aos-duration="2000">
             <div className="contact-container">
                 <div className="left">
-                    <h2>Contact me</h2>
-                    <p className="message">Thanks for getting here. 
-                        If you consider that I can contribute to your team, 
-                        do not hesitate to write to me, 
-                        otherwise I would love to receive your feedback to continue learning.
+                    <h2>Contacta conmigo</h2>
+                    <p className="message">
+                        Gracias por llegar hasta aquí.
+                        Si consideras que puedo aportar a tu equipo,
+                        no dudes en escribirme.
+                        De lo contrario, me encantaría recibir tus comentarios y sugerencias para seguir aprendiendo. 
                     </p>
                 </div>
                 <div className="right">
@@ -19,7 +19,7 @@ const Contact = () => {
                 </div>
                 
             </div>
-        </div>
+        </section>
     );
 }
  

@@ -38,15 +38,13 @@ body{
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
-  transition: transform 200ms ease-in;
-  /* background-color: #000; */
-
 }
 
 .card__image {
     height: 12rem;
-    width: 100%;
     object-fit: cover;
+    background-position: right top;
+    width: 100%;
 }
 
 .card__title {
@@ -61,6 +59,7 @@ body{
 }
 
 .card__btn {
+    width: 70%;
     padding: 1rem;
     font-family: inherit;
     font-weight: bold;
@@ -70,7 +69,6 @@ body{
     background: transparent;
     color: #fff;
     border-radius: var(--radius);
-    transition: background-color 200ms ease-in, color 200ms ease-in;
 }
 
 .card__btn:hover{
@@ -81,11 +79,36 @@ body{
     transform: scale(1.02);
 }
 
-.card:hover .card__btn {
+.card__btn:hover {
     background: var(--color-bg-variant);
     color: white;
 }
 
 .card_body{
     background-color: #000;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn a {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.btn a:hover{
+    cursor: pointer;
+}
+
+.btn svg{
+    margin: 0;
+}
+
+@media screen and (max-width:640px){
+    .wrapper {
+        justify-content: center;
+    }
 }

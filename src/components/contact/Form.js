@@ -6,7 +6,7 @@ const Form = () => {
             <input 
                 type="text" 
                 name='name' 
-                placeholder='Name' 
+                placeholder='Nombre' 
                 // onChange={handleChange} 
                 // value={form.name}
             />
@@ -18,9 +18,9 @@ const Form = () => {
             />
             <textarea 
                 name='message'
-                placeholder='Message' 
+                placeholder='Mensaje' 
             />
-            <input type="submit" value="Submit"/>
+            <input type="submit" value="Enviar"/>
         </form>
     );
 }

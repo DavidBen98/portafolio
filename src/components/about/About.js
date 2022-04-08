@@ -2,7 +2,7 @@ import "./about.css";
 
 const About = () => {
     return ( 
-        <div className="about" data-aos="fade-left" data-aos-duration="2000">
+        <section className="about" data-aos="fade-right" data-aos-duration="2000">
             <div className="about-container">
                 <div className="about-left">
                     <div className="circulo">
@@ -25,8 +25,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
-
-        </div>
+        </section>
     );
 }
  

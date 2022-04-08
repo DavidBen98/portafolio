@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100&display=swap');
+
+.tech{
+    width: 100%;
+    border-top: 1px solid #fff;
+}
+
+.tech-contain{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 70%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    gap:40px;
+}
+
+.tech article{
+    width: auto;
+    text-align: center;
+}
+
+
+.img-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.tech h1{
+    margin-top: 20px;
+    width: 70%;
+    margin: auto; 
+    margin-top: 20px;
+    font-size: 1.5rem; 
+}
+
+article h2{
+    font-family: Smooth;
+}
+
+.cont-imagen{
+    display: flex;
+    align-items:center;
+    margin:auto;
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width:640px){
+    .tech h1{
+        text-align: center;
+    }
+
+    .tech-contain{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

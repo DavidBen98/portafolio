@@ -27,9 +27,13 @@ const Social = () => {
             </li>
 
             <li>
-                <Link to="/contact">
+                <a 
+                    aria-label="Enviar un correo a davidbenedette@gmail.com" 
+                    rel="noreferrer noopener" 
+                    href="mailto: davidbenedette@gmail.com"
+                >
                     <AiTwotoneMail className="icon"/>
-                </Link>
+                </a>
             </li>   
         </>
     );

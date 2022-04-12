@@ -13,7 +13,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about-right">
-                    <h1>Sobre mi</h1>
+                    <h1>Sobre mí</h1>
                     <p>
                     Soy una persona responsable y apasionada por el desarrollo web. <br/>
                     Conocí este mundo hace un poco mas de 2 años a través de un amigo. 

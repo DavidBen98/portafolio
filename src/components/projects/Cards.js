@@ -1,6 +1,7 @@
 import "./cards.css";
 import CardItem from "./CardItem";
 import ecommerce from "../../assets/ecommerce.png";
+import buscador from "../../assets/buscador.png";
 
 const Cards = () => {
     return (
@@ -22,9 +23,11 @@ const Cards = () => {
             />
 
             <CardItem
-                img="https://images.unsplash.com/photo-1529928520614-7c76e2d99740?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-                title="CRUD Api"
-                description="Baked Cod with Vegetables. 30 minute meal!"
+                img={buscador}
+                title="Buscador de canciones"
+                description="Busca canciones con su respectivo artista y guarda en favoritos las deseadas"
+                link="https://github.com/DavidBen98/crud-canciones"
+                project="https://buscador-canciones.surge.sh/"
             />
         </section>
     );

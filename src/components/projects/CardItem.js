@@ -7,12 +7,11 @@ const CardItem = (props) => {
     return (
         <div className="card" data-aos="fade-right" data-aos-duration="2000">
             <div className="card__body">
-                <div style={{height:"180px"}}>
+                <div style={{height:"160px"}}>
                     <img 
                         src={props.img} 
                         className="card__image" 
                         title={props.title}
-                        style={{objectFit:"contain"}}
                     />
                 </div>
                 <h2 className="card__title">{props.title}</h2>

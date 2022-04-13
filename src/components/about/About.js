@@ -1,16 +1,16 @@
 import "./about.css";
+import foto from "../../assets/foto.jpg";
 
 const About = () => {
     return ( 
         <section className="about" data-aos="fade-right" data-aos-duration="2000">
             <div className="about-container">
                 <div className="about-left">
-                    <div className="circulo">
-
-                    </div>
-                    <div>
-
-                    </div>
+                    <img 
+                        src={foto} 
+                        className="card__image" 
+                        
+                    />
                 </div>
                 <div className="about-right">
                     <h1>Sobre mí</h1>

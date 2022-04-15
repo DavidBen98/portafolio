@@ -33,7 +33,7 @@ const Tech = () => {
                     <h2>CSS</h2>
                 </article>
                 <article>
-                    <img src={php} className="img-logo" title="" style={{height: "60%",width: "60%", paddingTop: "25px"}}/>
+                    <img src={php} className="img-logo" title="" style={{height: "60%",width: "60%", paddingTop: "15%"}}/>
                     <h2 style={{textAlign:"center", width:"100%"}}>PHP</h2>
                 </article>
                 <article>

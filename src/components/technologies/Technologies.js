@@ -34,7 +34,7 @@ const Tech = () => {
                 </article>
                 <article style={{display:"flex", flexWrap:"wrap", justifyContent:"center"}}>
                     <img src={php} className="img-logo" title="" style={{height:"auto", width:"100px", margin: "auto",marginTop:"25px"}}/>
-                    <h2 style={{marginTop:"auto"}}>PHP</h2>
+                    <h2 style={{marginTop:"auto", textAlign:"center"}}>PHP</h2>
                 </article>
                 <article>
                     <img src={Mysql} className="img-logo" title=""/>

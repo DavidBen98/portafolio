@@ -7,13 +7,11 @@ const CardItem = (props) => {
     return (
         <div className="card" data-aos="fade-right" data-aos-duration="2000">
             <div className="card__body">
-                <div style={{height:"160px"}}>
                     <img 
                         src={props.img} 
                         className="card__image" 
                         title={props.title}
                     />
-                </div>
                 <h2 className="card__title">{props.title}</h2>
                 <p className="card__description">{props.description}</p>
             </div>
@@ -24,6 +22,7 @@ const CardItem = (props) => {
                     href={props.link}
                     target="_blank"
                     rel="noopener noreferrer"
+                    style={{margin:"auto"}}
                 >
                     <VscGithub className="icon"/>
                     Repo

@@ -12,11 +12,11 @@
     flex-wrap: wrap;
     width: 70%;
     justify-content: space-between;
+    margin: 3% 0;
 }
 
 .about-left, .about-right{
     width: 40%;
-    margin: 5% auto;
 }
 
 .about-right{

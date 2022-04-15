@@ -14,9 +14,9 @@ const Video = () => {
                     <img src={foto} className="photo"/>
                 </div>
                 <div className="text animate__animated animate__bounceInDown">
-                    <h1 className="">David Benedette</h1>
+                    <h1>David Benedette</h1>
                     <p>Desarrollador Frontend</p>
-                    <p style={{font: "1.1rem Smooch"}}>React | JavaScript | CSS </p>
+                    <p style={{font: "1.1rem Smooch"}}> React | JavaScript | CSS </p>
                 </div>
             </div>
         </div>

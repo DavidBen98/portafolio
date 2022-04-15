@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-bg-variant);
+    background-color: #3C3C85;
     height: 65px;
     position: fixed;
     top:0;

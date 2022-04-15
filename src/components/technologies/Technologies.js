@@ -14,8 +14,8 @@ import "./technologies.css";
 const Tech = () => {
     return ( 
         <section className="tech" data-aos="fade-left" data-aos-duration="2000">
-            <h1>Tecnologías</h1>
             <div className="tech-contain">
+                <h1>Tecnologías</h1>
                 <article>
                     <img alt="Logo de JavaScript" src={javascript} className="img-logo"/>
                     <h2>JavaScript</h2>

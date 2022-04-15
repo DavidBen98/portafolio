@@ -8,8 +8,8 @@ const About = () => {
                 <div className="about-left">
                     <img 
                         src={foto} 
-                        className="card__image" 
-                        
+                        className="photo" 
+                        style={{width:"350px", height:"350px"}}
                     />
                 </div>
                 <div className="about-right">

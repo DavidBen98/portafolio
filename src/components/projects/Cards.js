@@ -24,8 +24,8 @@ const Cards = () => {
 
             <CardItem
                 img={buscador}
-                title="Buscador de canciones"
-                description="Busca canciones con su respectivo artista y guarda en favoritos las deseadas"
+                title="Buscar canciones"
+                description="Busca canciones con su respectivo artista, y guarda en favoritos las deseadas."
                 link="https://github.com/DavidBen98/crud-canciones"
                 project="https://buscador-canciones.surge.sh/"
             />

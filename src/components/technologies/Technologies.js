@@ -32,9 +32,9 @@ const Tech = () => {
                     <img src={css} className="img-logo" title=""/>
                     <h2>CSS</h2>
                 </article>
-                <article style={{display:"flex", flexWrap:"wrap", justifyContent:"center"}}>
-                    <img src={php} className="img-logo" title="" style={{height:"auto", width:"100px", margin: "auto",marginTop:"25px"}}/>
-                    <h2 style={{marginTop:"auto", textAlign:"center"}}>PHP</h2>
+                <article>
+                    <img src={php} className="img-logo" title="" style={{height: "60%",width: "60%", paddingTop: "25px"}}/>
+                    <h2 style={{textAlign:"center", width:"100%"}}>PHP</h2>
                 </article>
                 <article>
                     <img src={Mysql} className="img-logo" title=""/>

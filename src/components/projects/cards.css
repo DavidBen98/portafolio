@@ -20,7 +20,7 @@ body{
   padding: 0;
 }
 
-.wrapper {
+.projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
   gap: 2rem;

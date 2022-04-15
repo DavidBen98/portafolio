@@ -4,35 +4,36 @@ import { Link } from "react-router-dom";
 const Social = () => {
     return ( 
         <>
-            <li>
+            <li className='social-media'>
                 <a
-                    className="github"
+                    className="social-media__github"
                     href="https://github.com/DavidBen98"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <AiFillGithub className="icon"/>
+                    <AiFillGithub className="social-media__icon"/>
                 </a>
             </li>
 
-            <li>
+            <li className='social-media'>
                 <a
-                    className="github"
+                    className="social-media__linkedin"
                     href="https://www.linkedin.com/in/david-benedette"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <AiFillLinkedin className="icon"/>
+                    <AiFillLinkedin className="social-media__icon"/>
                 </a>
             </li>
 
-            <li>
+            <li className='social-media'>
                 <a 
+                    className='social-media__mail'
                     aria-label="Enviar un correo a davidbenedette@gmail.com" 
                     rel="noreferrer noopener" 
                     href="mailto: davidbenedette@gmail.com"
                 >
-                    <AiTwotoneMail className="icon"/>
+                    <AiTwotoneMail className="social-media__icon"/>
                 </a>
             </li>   
         </>

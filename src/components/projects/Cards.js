@@ -5,7 +5,7 @@ import buscador from "../../assets/buscador.png";
 
 const Cards = () => {
     return (
-        <section className="wrapper">
+        <section className="projects">
             <CardItem
                 img={ecommerce}
                 title="E-commerce"

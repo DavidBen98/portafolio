@@ -11,7 +11,7 @@
     width: 70%;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 20px auto;
+    margin: 2rem auto;
     gap:40px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .tech h1{
-    margin: 2rem auto;
+    margin-top: 2rem;
     width: 70%;
     font-size: 1.5rem; 
 }

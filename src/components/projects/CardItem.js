@@ -1,4 +1,3 @@
-import "./cards.css";
 import { VscGithub } from 'react-icons/vsc';
 
 const CardItem = (props) => {
@@ -15,17 +14,17 @@ const CardItem = (props) => {
                 <h2 className="card__title">{props.title}</h2>
                 <p className="card__description">{props.description}</p>
             </div>
-            <div className="btn">
-                <button className="card__btn" target="_blank" onClick={() => window.open(props.project, "_blank")}>Visitar</button>
+            <div className="card__btn">
+                <button className="card__button" target="_blank" onClick={() => window.open(props.project, "_blank")}>Visitar</button>
                 <a
-                    className="proyectGithub"
+                    className="card__link"
                     href={props.link}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{margin:"auto"}}
                 >
-                    <VscGithub className="icon"/>
-                    Repo
+                    <VscGithub className="card__icon"/>
+                    <p>Repo</p>
                 </a>
             </div>
         </div>

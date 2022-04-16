@@ -1,4 +1,3 @@
-import "./cards.css";
 import CardItem from "./CardItem";
 import ecommerce from "../../assets/ecommerce.png";
 import buscador from "../../assets/buscador.png";

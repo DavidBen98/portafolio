@@ -1,5 +1,3 @@
-import "./form.css";
-
 const Form = () => {
     return ( 
         <form action="https://formspree.io/f/mqknlbyb" method="POST">

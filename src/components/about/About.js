@@ -1,20 +1,18 @@
-import "./about.css";
 import foto from "../../assets/foto.jpg";
 
 const About = () => {
     return ( 
         <section className="about" data-aos="fade-right" data-aos-duration="2000">
             <div className="about-container">
-                <div className="about-left">
+                <div className="about-container__div">
                     <img 
                         src={foto} 
-                        className="photo" 
-                        style={{width:"350px", height:"350px"}}
+                        className="about-container__photo" 
                     />
                 </div>
-                <div className="about-right">
-                    <h1>Sobre mí</h1>
-                    <p>
+                <div className="about-container__div about-container__div--right">
+                    <h1 className="about-container__h1">Sobre mí</h1>
+                    <p className="about-container__text">
                     Soy una persona responsable y apasionada por el desarrollo web. <br/>
                     Conocí este mundo hace un poco mas de 2 años a través de un amigo. 
                     Desde el momento que vi los problemas que se podían solucionar por medio de código, 

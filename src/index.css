@@ -546,7 +546,7 @@ input[type="submit"]:hover{
     height: 100vh;
     transition: .3s;
     z-index: -1;
-    background-color: var(--color-bg);
+    background-color: #3c3c85;
   }
 
   .header__nav-menu--active{

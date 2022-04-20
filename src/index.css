@@ -359,6 +359,10 @@ input[type="submit"]:hover{
   cursor: default;
 }
 
+.card__body:hover .card__description:hover, .card__title:hover{
+  cursor: default;
+}
+
 .card__button:hover{
   cursor: pointer;
   background: var(--color-bg-variant);

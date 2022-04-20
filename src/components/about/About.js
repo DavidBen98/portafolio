@@ -13,9 +13,9 @@ const About = () => {
                 <div className="about-container__div about-container__div--right">
                     <h1 className="about-container__h1">Sobre mí</h1>
                     <p className="about-container__text">
-                    Soy una persona responsable y apasionada por el desarrollo web. <br/>
-                    Conocí este mundo hace un poco mas de 2 años a través de un amigo. 
-                    Desde el momento que vi los problemas que se podían solucionar por medio de código, 
+                    Soy una persona entusiasta y apasionada por el desarrollo web y la tecnología. <br/>
+                    Conocí este mundo hace un poco mas de 2 años a través de un amigo, y, 
+                    desde el momento que vi los problemas que se podían solucionar por medio de código, 
                     supe que me quería dedicar a esto. 
                     Por esta razón estudié Tecnicatura en Computación, en donde aprendí diferentes tecnologías 
                     como C#, SQL y JavaScript. 

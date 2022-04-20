@@ -407,7 +407,8 @@ input[type="submit"]:hover{
 }
 
 .tech-container__h2{
-  font-family: Smooth;
+  font-family: Oxygen;
+  font-size: 1.3rem;
 }
 
 .tech-container__h2--php{
@@ -510,6 +511,14 @@ input[type="submit"]:hover{
 }
 
 @media screen and (max-width:1007px){
+  .header{
+    justify-content: space-around;
+  }
+
+  .header__logo{
+    display: none;
+  }
+
   .background-video__content{
       justify-content: center;
   }
@@ -523,7 +532,7 @@ input[type="submit"]:hover{
   }
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:700px){
   body{
     display: flex;
     flex-wrap: wrap;
@@ -532,6 +541,7 @@ input[type="submit"]:hover{
 
   .header{
     padding: 1rem 1rem;
+    justify-content: space-between;
   }
 
   .header__logo{

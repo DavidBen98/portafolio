@@ -1,8 +1,6 @@
 import { VscGithub } from 'react-icons/vsc';
 
 const CardItem = (props) => {
-    console.log(props);
-
     return (
         <div className="card" data-aos="fade-right" data-aos-duration="2000">
             <div className="card__body">

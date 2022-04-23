@@ -455,6 +455,7 @@ input[type="submit"]:hover{
 
 .about-container__h1{
   font-size: 1.5rem;
+  width: 100%;
 }
 
 .about-container__text{
@@ -554,6 +555,7 @@ input[type="submit"]:hover{
 
   .about-container__div{
     display: flex;
+    flex-wrap: wrap;
   }
 
   .about-container__photo{

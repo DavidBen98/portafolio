@@ -482,6 +482,10 @@ input[type="submit"]:hover{
   margin:0 0 0 10%;
 }
 
+.contact-container__form{
+  min-width: 300px;
+}
+
 .contact-container__text{
   font-family: Smooth;
 }

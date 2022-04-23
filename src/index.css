@@ -548,9 +548,18 @@ input[type="submit"]:hover{
       width: 40%;
   }
 
+  .about-container{
+    justify-content: center;
+  }
+
+  .about-container__div{
+    display: flex;
+  }
+
   .about-container__photo{
-    width: 30vh;
-    height: 30vh;
+    margin: auto;
+    width: 40vh;
+    height: 40vh;
   }
 }
 

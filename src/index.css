@@ -399,6 +399,7 @@ input[type="submit"]:hover{
   height: 60%;
   width: 60%;
   min-height: 90px;
+  min-width: 95px;
 }
 
 .tech-container__logo--php{
@@ -516,7 +517,7 @@ input[type="submit"]:hover{
 }
 
 @media screen and (max-width:1200px){
-  .projects, .about{
+  .tech-container, .projects, .about{
     width: 90%;
   }
 

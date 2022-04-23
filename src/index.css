@@ -518,7 +518,7 @@ input[type="submit"]:hover{
 }
 
 @media screen and (max-width:1200px){
-  .tech-container, .projects, .about-container{
+  .tech-container, .projects{
     width: 90%;
   }
 
@@ -547,6 +547,10 @@ input[type="submit"]:hover{
 
   .background-video__photo{
       width: 40%;
+  }
+
+  .projects{
+    width: 60%;
   }
 
   .about-container{

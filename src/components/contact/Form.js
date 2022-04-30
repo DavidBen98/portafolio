@@ -1,6 +1,6 @@
 const Form = () => {
     return ( 
-        <form classname="contact-container__form" action="https://formspree.io/f/mqknlbyb" method="POST">
+        <form className="contact-container__form" action="https://formspree.io/f/mqknlbyb" method="POST">
             <input 
                 type="text" 
                 name='name' 

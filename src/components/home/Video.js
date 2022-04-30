@@ -3,7 +3,7 @@ import foto from "../../assets/perfil.jpg";
 
 const Video = () => {
     return ( 
-        <div className="background-video" data-aos="fade-left" data-aos-duration="2000">
+        <div className="background-video" >
             <video autoPlay loop muted className="background-video__video">
                 <source src={spaceVideo} type="video/mp4" />
             </video>

@@ -1,8 +1,18 @@
 import foto from "../../assets/about.png";
+import  AOS  from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const About = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 2400,
+            disable: "mobile",
+        });
+    }, []);
+
     return ( 
-        <section className="about" data-aos="fade-right" data-aos-duration="2000">
+        <section className="about" data-aos="fade-right">
             <div className="about-container">
                 <div className="about-container__div">
                     <img 

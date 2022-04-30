@@ -1,8 +1,18 @@
 import Form from "./Form";
+import { useEffect } from "react";
+import  AOS  from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 2400,
+            disable: "mobile",
+        });
+    }, []);
+
     return ( 
-        <section className="contact" data-aos="fade-left" data-aos-duration="2000">
+        <section className="contact" data-aos="fade-left">
             <div className="contact-container">
                 <div className="contact-container__div">
                     <h2>Contacta conmigo</h2>

@@ -8,10 +8,20 @@ import sqlServer from "../../assets/logo-sqlserver.svg";
 import cSharp from "../../assets/logo-c.svg";
 import git from "../../assets/logo-git.svg";
 import github from "../../assets/logo-github.svg";
+import  AOS  from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const Tech = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 2400,
+            disable: "mobile",
+        });
+    }, []);
+
     return ( 
-        <section className="tech" data-aos="fade-left" data-aos-duration="2000">
+        <section className="tech" data-aos="fade-left">
             <div className="tech-container">
                 <h1 className="tech-container__h1">Tecnologías</h1>
 

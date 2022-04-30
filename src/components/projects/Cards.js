@@ -7,10 +7,20 @@ import html from "../../assets/logo-html.svg";
 import css from "../../assets/logo-css.svg";
 import php from "../../assets/logo-php.svg";
 import Mysql from "../../assets/logo-mysql.svg";
+import { useEffect } from "react";
+import  AOS  from 'aos';
+import 'aos/dist/aos.css';
 
 const Cards = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 2400,
+            disable: "mobile",
+        });
+    }, []);
+
     return (
-        <section className="projects">
+        <section className="projects" data-aos="slide-up">
             <CardItem
                 img={ecommerce}
                 title="E-commerce"
@@ -37,6 +47,7 @@ const Cards = () => {
                 link="https://github.com/DavidBen98/crud-canciones"
                 project="https://buscador-canciones.surge.sh/"
                 tech={[react,html,css]}
+                fade={"animate__fadeInRight"}
             />
         </section>
     );

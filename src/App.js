@@ -5,14 +5,13 @@ import Contact from "./components/contact/Contact";
 import { Route, Routes } from 'react-router-dom';
 import Cards from './components/projects/Cards';
 import Tech from './components/technologies/Technologies';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import Footer from './components/footer/Footer';
+import  AOS  from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  // AOS.init();
 
-  AOS.init();
-  
   return (
     <div>
       <Routes>

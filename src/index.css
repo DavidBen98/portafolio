@@ -117,7 +117,6 @@ input[type="submit"]:hover{
   justify-content: space-between;
   align-items: center;
   background-color: #3C3C85;
-  height: 10vh;
   position: fixed;
   top:0;
   left: 0;
@@ -497,10 +496,6 @@ input[type="submit"]:hover{
   margin:0 0 0 10%;
 }
 
-.contact-container__form{
-  min-width: 300px;
-}
-
 .contact-container__text{
   font-family: Smooth;
 }
@@ -562,12 +557,12 @@ input[type="submit"]:hover{
   }
 
   .projects{
-    width: 60%;
+    width: 80%;
   }
 
   .about-container{
     justify-content: center;
-    width: 100%;
+    width: 95%;
   }
 
   .about-container__div{
@@ -577,8 +572,8 @@ input[type="submit"]:hover{
 
   .about-container__photo{
     margin: auto;
-    width: 40vh;
-    height: 40vh;
+    width: 25vh;
+    height: 25vh;
   }
 }
 
@@ -654,7 +649,7 @@ input[type="submit"]:hover{
   }
 
   .background-video__content{
-    top: 15vh;
+    top: 10vh;
     justify-content: center;
     align-items: center;
   }
@@ -666,8 +661,8 @@ input[type="submit"]:hover{
   }
 
   .background-video__img{
-    width: 40vh;
-    height: 40vh;
+    width: 25vh;
+    height: 25vh;
   }
 
   .background-video__text{
@@ -681,8 +676,8 @@ input[type="submit"]:hover{
 
   .background-video__description{
     font-size: 1.4rem;
-    height: 10%;
-    margin: 1rem 0;
+    height: auto;
+    margin: 1rem;
   }
 
   .projects {
@@ -703,15 +698,14 @@ input[type="submit"]:hover{
       grid-template-columns: repeat(2, 1fr);
   }
 
-  .about-container__div{
-    width: 100%;
+  .about-container__div, .contact-container{
+    width: 90%;
+    margin:auto;
   }
 
   .about-container__h1, .about-container__text{
     text-align: center;
   }
-
-  
 
   .contact-container__div{
     width: 100%;

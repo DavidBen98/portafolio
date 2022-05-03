@@ -1,8 +1,18 @@
 import { VscGithub } from 'react-icons/vsc';
+import { useEffect } from "react";
+import  AOS  from 'aos';
+import 'aos/dist/aos.css';
 
 const CardItem = (props) => {
+    useEffect(() => {
+        AOS.init({
+            duration: 2400,
+            disable: "mobile",
+        });
+    }, []);
+
     return (
-        <div className="card">
+        <div className="card" data-aos="slide-up">
             <div className="card__body">
                     <img 
                         src={props.img} 

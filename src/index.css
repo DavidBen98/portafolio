@@ -160,7 +160,7 @@ input[type="submit"]:hover{
   position: absolute;
   width: 80%;
   margin: 0 10%;
-  height: 1px;
+  height: .5px;
   background-color: #fff;
   transform: scaleX(0);
   transform-origin: bottom right;
@@ -177,6 +177,15 @@ input[type="submit"]:hover{
   display: flex;
   justify-content: end;
   align-items: center;
+}
+
+.social-media{
+  transition: all .5s ease-in;
+}
+
+.social-media:hover{
+  transform: scale(1.2);
+  transition: all .5s ease-in;
 }
 
 .social-media__icon{
@@ -240,7 +249,7 @@ input[type="submit"]:hover{
 .background-video__img{
   width: 300px; 
   height: 300px; 
-  border: 3px solid #fff; 
+  border: 3px solid #3C3C85; 
   background: #428bca;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -300,8 +309,8 @@ input[type="submit"]:hover{
   cursor: pointer;
   min-height: 350px;
   box-shadow: none;
-  border: 2px solid #fff;
-  transition: all .5s ease-out;
+  border: 1px solid #fff;
+  transition: transform .5s ease-out;
 }
 
 .card__image {
@@ -359,7 +368,7 @@ input[type="submit"]:hover{
   font-weight: bold;
   font-size: 1rem;
   margin: 1rem;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   background: transparent;
   color: #fff;
   border-radius: var(--radius);
@@ -372,7 +381,7 @@ input[type="submit"]:hover{
   cursor: default;
   box-shadow: 0 2px 20px var(--clr-gray100);
   border: none;
-  transition: all .5s ease-out;
+  transition: transform .5s ease-out;
 }
 
 .card__body:hover .card__description:hover, .card__title:hover{
@@ -520,7 +529,7 @@ input[type="submit"]:hover{
 }
 
 .footer__social svg{
-  margin:0;
+  margin:0 .5rem;
 }
 
 .footer__text{

@@ -7,20 +7,10 @@ import html from "../../assets/logo-html.svg";
 import css from "../../assets/logo-css.svg";
 import php from "../../assets/logo-php.svg";
 import Mysql from "../../assets/logo-mysql.svg";
-import { useEffect } from "react";
-import  AOS  from 'aos';
-import 'aos/dist/aos.css';
 
 const Cards = () => {
-    useEffect(() => {
-        AOS.init({
-            duration: 2400,
-            disable: "mobile",
-        });
-    }, []);
-
     return (
-        <section className="projects" data-aos="slide-up">
+        <section className="projects">
             <CardItem
                 img={ecommerce}
                 title="E-commerce"

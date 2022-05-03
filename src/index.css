@@ -301,6 +301,7 @@ input[type="submit"]:hover{
   min-height: 350px;
   box-shadow: none;
   border: 2px solid #fff;
+  transition: all .5s ease-out;
 }
 
 .card__image {
@@ -371,6 +372,7 @@ input[type="submit"]:hover{
   cursor: default;
   box-shadow: 0 2px 20px var(--clr-gray100);
   border: none;
+  transition: all .5s ease-out;
 }
 
 .card__body:hover .card__description:hover, .card__title:hover{

@@ -240,7 +240,7 @@ input[type="submit"]:hover{
 .background-video__img{
   width: 300px; 
   height: 300px; 
-  border: 3px solid #111; 
+  border: 3px solid #fff; 
   background: #428bca;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;

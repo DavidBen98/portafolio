@@ -12,7 +12,6 @@ const Header = () => {
     };
 
     return ( 
-        // <header className="header">
         <header className="header">
             <Link className="header__logo" to="home" smooth={true} duration={500}>
                 <h1>David Benedette</h1>

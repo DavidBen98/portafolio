@@ -127,7 +127,7 @@ input[type="submit"]:hover{
 
 .header__logo{
   width:15%;
-  color: var(--color-white);
+  color: var(--color-primary);
   text-align: center;
 }
 
@@ -181,7 +181,7 @@ input[type="submit"]:hover{
 
 .social-media__icon{
   display: flex;
-  color: var(--color-white);
+  color: var(--color-primary);
 }
 
 .header__hamburger{
@@ -525,6 +525,7 @@ input[type="submit"]:hover{
   text-align: center;
   font-family: Smooth;
   margin: 1% 0;
+  color: var(--color-primary);
 }
 
 @media screen and (max-width:1200px){

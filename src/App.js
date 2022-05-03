@@ -6,11 +6,9 @@ import { Route, Routes } from 'react-router-dom';
 import Cards from './components/projects/Cards';
 import Tech from './components/technologies/Technologies';
 import Footer from './components/footer/Footer';
-import  AOS  from 'aos';
 import 'aos/dist/aos.css';
 
 function App() {
-  // AOS.init();
 
   return (
     <div>

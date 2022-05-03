@@ -370,6 +370,7 @@ input[type="submit"]:hover{
   transform: scale(1.02);
   cursor: default;
   box-shadow: 0 2px 20px var(--clr-gray100);
+  border: none;
 }
 
 .card__body:hover .card__description:hover, .card__title:hover{
@@ -380,7 +381,6 @@ input[type="submit"]:hover{
   cursor: pointer;
   background: var(--color-bg-variant);
   color: white;
-  border: none;
 }
 
 .tech{

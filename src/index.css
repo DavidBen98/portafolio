@@ -293,13 +293,14 @@ input[type="submit"]:hover{
 .card {
   overflow: hidden;
   font-family: Oxygen, sans-serif;
-  box-shadow: 0 2px 20px var(--clr-gray100);
   border-radius: var(--radius);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
   min-height: 350px;
+  box-shadow: none;
+  border: 2px solid #fff;
 }
 
 .card__image {
@@ -368,6 +369,7 @@ input[type="submit"]:hover{
 .card:hover {
   transform: scale(1.02);
   cursor: default;
+  box-shadow: 0 2px 20px var(--clr-gray100);
 }
 
 .card__body:hover .card__description:hover, .card__title:hover{
@@ -378,6 +380,7 @@ input[type="submit"]:hover{
   cursor: pointer;
   background: var(--color-bg-variant);
   color: white;
+  border: none;
 }
 
 .tech{

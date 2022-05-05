@@ -1,5 +1,6 @@
 import CardItem from "./CardItem";
 import ecommerce from "../../assets/ecommerce.png";
+import watchlist from "../../assets/watchlist.png";
 import buscador from "../../assets/buscador.png";
 import react from "../../assets/logo-react.svg";
 import javascript from "../../assets/logo-javascript.png";
@@ -21,14 +22,14 @@ const Cards = () => {
                 tech={[javascript,html,css,php,Mysql]}
             />
 
-            {/* <CardItem
-                img="https://images.unsplash.com/photo-1476124369491-e7addf5db371?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-                title="Proyecto con monai"
-                description="Web 3 es el futuro y por eso este proyecto soluciona muchos problemas..."
-                link="https://github.com/DavidBen98/sitio_web_php_js"
-                project="https://buscador-canciones.surge.sh/"
-                tech={[javascript,html,css,php,Mysql]}
-            /> */}
+            <CardItem
+                img={watchlist}
+                title="WatchList"
+                description="Organizar películas una lista para ver y mantener el catálogo de las ya visualizadas."
+                link="https://github.com/DavidBen98/watchlist"
+                project="https://watch-list-movie.vercel.app/"
+                tech={[react,html,css]}
+            />
 
             <CardItem
                 img={buscador}

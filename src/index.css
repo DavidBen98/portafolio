@@ -427,10 +427,16 @@ input[type="submit"]:hover{
   min-width: 95px;
 }
 
+
 .tech-container__logo--php{
   height: 60%;
   width: 60%;
   padding-top: 15%;
+}
+
+.tech-container__logo:hover{
+  -webkit-transform: rotateY(360deg);
+  transition: 2s ease-out;
 }
 
 .tech-container__h2{

@@ -25,7 +25,7 @@ const Cards = () => {
             <CardItem
                 img={watchlist}
                 title="WatchList"
-                description="Organizar películas una lista para ver y mantener el catálogo de las ya visualizadas."
+                description="Organizar películas en una lista para ver, y mantener el catálogo de las ya visualizadas."
                 link="https://github.com/DavidBen98/watchlist"
                 project="https://watch-list-movie.vercel.app/"
                 tech={[react,html,css]}

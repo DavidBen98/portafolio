@@ -274,16 +274,16 @@ input[type="submit"]:hover{
 }
 
 .background-video__description{
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   color: #fff;
   width: 100%;
   text-align: center;
-  height: 20%;
 }
 
 .background-video__description--language{
-  font: 1.1rem Smooch;
+  font: 1.8rem Smooch;
+  margin: 1rem;
 }
 
 .background-video__text--animate {
@@ -427,7 +427,6 @@ input[type="submit"]:hover{
   min-width: 95px;
 }
 
-
 .tech-container__logo--php{
   height: 60%;
   width: 60%;
@@ -555,26 +554,50 @@ input[type="submit"]:hover{
   }
 }
 
-
 @media screen and (max-width:1007px){
   .header{
     justify-content: space-around;
+    padding: .5rem;
   }
 
   .header__logo{
     display: none;
   }
 
+  .header__item{
+    font-size: 1.6rem;
+  }
+
   .background-video__content{
       justify-content: space-around;
+      top: 10vh;
   }
 
   .background-video__text{
-      width: 45%;
+      width: 100%;
+      margin: 3rem;
+      align-content: start;
+      height: auto;
   }
 
   .background-video__photo{
-      width: 40%;
+      width: 100%;
+      justify-content: center;
+  }
+
+  .background-video__img{
+    width: 500px;
+    height: 500px;
+  }
+
+  .background-video__description{
+    font-size: 3rem;
+    height: auto;
+  }
+
+  .background-video__description--language{
+    font: 3rem;
+    margin: 1rem;
   }
 
   .projects{
@@ -670,7 +693,7 @@ input[type="submit"]:hover{
   }
 
   .background-video__content{
-    top: 10vh;
+    top: 20vh;
     justify-content: center;
     align-items: center;
   }
@@ -678,12 +701,12 @@ input[type="submit"]:hover{
   .background-video__photo{
     height: 50%;
     justify-content: center;
-    width: 50%;
+    width: auto;
   }
 
   .background-video__img{
-    width: 25vh;
-    height: 25vh;
+    width: 30vh;
+    height: 30vh;
   }
 
   .background-video__text{
@@ -692,13 +715,13 @@ input[type="submit"]:hover{
   }
 
   .background-video__title{
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .background-video__description{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     height: auto;
-    margin: 1rem;
+    margin: .5rem;
   }
 
   .projects {
@@ -743,5 +766,11 @@ input[type="submit"]:hover{
   .active{
     position: fixed;
     left: -100%;
+  }
+}
+
+@media screen and (max-width:280px){
+  .background-video__content{
+    top: 10vh;
   }
 }

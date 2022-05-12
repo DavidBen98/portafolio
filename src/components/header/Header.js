@@ -18,31 +18,31 @@ const Header = () => {
             </Link>
 
             <ul className={click? "header__nav-menu--active header__nav-menu" : "header__nav-menu"}>
-                <li className="header__item" >
+                <div className="header__item" >
                     <Link to="home" smooth={true} duration={500} onClick={()=> {if (active) handleClick()}}>
                         Inicio
                     </Link>
-                </li>
-                <li className="header__item">
+                </div>
+                <div className="header__item">
                     <Link to="projects" offset={active? -70 : -90} smooth={true} duration={500} onClick={()=> {if (active) handleClick()}}>
                         Proyectos
                     </Link>
-                </li>
-                <li className="header__item">
+                </div>
+                <div className="header__item">
                     <Link to="about" offset={active? -50 : -100} smooth={true} duration={500} onClick={()=> {if (active) handleClick()}}>
                         Acerca de
                     </Link>
-                </li>
-                <li className="header__item">
+                </div>
+                <div className="header__item">
                     <Link to="contact" offset={active? -50 : -100} smooth={true} duration={500} onClick={()=> {if (active) handleClick()}}>
                         Contacto
                     </Link>
-                </li>
+                </div>
 
                 {click && 
-                    <li className="header__item header__item--social">
+                    <div className="header__item header__item--social">
                         <Social />
-                    </li>
+                    </div>
                 }
             </ul>
 

@@ -20,7 +20,7 @@ const Contact = () => {
                         Gracias por llegar hasta aquí.
                         Si consideras que puedo aportar a tu equipo,
                         no dudes en escribirme.
-                        De lo contrario, me encantaría recibir tus comentarios y sugerencias para seguir aprendiendo. 
+                        De lo contrario, me encantaría recibir tus comentarios y sugerencias para seguir creciendo profesionalmente. 
                     </p>
                 </div>
                 <div className="contact-container__div contact-container__div--right">

@@ -398,6 +398,8 @@ input[type="submit"]:hover{
 .tech{
   width: 100%;
   border-top: 1px solid #fff;
+  height: 100vh;
+  display: flex;
 }
 
 .tech-container{
@@ -406,7 +408,7 @@ input[type="submit"]:hover{
   width: 70%;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 2% auto;
+  margin: 0 auto 2% auto;
   gap:40px;
 }
 
@@ -414,6 +416,7 @@ input[type="submit"]:hover{
   font-size: 1.5rem;
   grid-column-start: 1;
   grid-column-end: 6;
+  align-self: end;
 }
 
 .tech-container__article{
@@ -422,7 +425,7 @@ input[type="submit"]:hover{
 }
 
 .tech-container__logo{
-  height: 60%;
+  /* height: 60%; */
   width: 60%;
   min-height: 90px;
   min-width: 95px;
@@ -454,6 +457,7 @@ input[type="submit"]:hover{
   justify-content: center;
   background-color: var(--color-bg);
   border-top: 1px solid #fff;
+  height: 100vh;
 }
 
 .about-container{
@@ -461,6 +465,7 @@ input[type="submit"]:hover{
   flex-wrap: wrap;
   width: 70%;
   justify-content: space-between;
+  align-items: center;
   margin: 3% 0;
 }
 
@@ -497,6 +502,7 @@ input[type="submit"]:hover{
   display: flex;
   justify-content: center;
   border-top: 1px solid #fff;
+  height: 100vh;
 }
 
 .contact-container{
@@ -504,12 +510,13 @@ input[type="submit"]:hover{
   flex-wrap: wrap;
   width: 70%;
   justify-content: center;
+  align-items: center;
   margin: 3% 0;
 }
 
 .contact-container__div{
   width: 40%;
-  margin: 0 10% 0 0;
+  margin: 0 10% 14% 0;
 }
 
 .contact-container__div--right{
@@ -552,6 +559,14 @@ input[type="submit"]:hover{
 
   .projects{
     justify-content: center;
+  }
+
+  .tech, .contact, .about{
+    height: auto;
+  }
+
+  .projects, .tech-container, .contact-container, .about-container{
+    margin: 2rem auto;
   }
 }
 
@@ -619,6 +634,19 @@ input[type="submit"]:hover{
     margin: auto;
     width: 25vh;
     height: 25vh;
+  }
+
+  .contact-container{
+    width: 80%;
+  }
+
+  .contact-container__div{
+    margin:0 5% 0 0;
+    width: 45%;
+  }
+
+  .contact-container__div--right{
+    margin: 0 0 0 5%;
   }
 }
 
@@ -726,7 +754,6 @@ input[type="submit"]:hover{
   }
 
   .projects {
-    margin: 3% auto;
     grid-template-columns: auto;
   }
 
@@ -745,7 +772,6 @@ input[type="submit"]:hover{
 
   .about-container__div, .contact-container{
     width: 90%;
-    margin:auto;
   }
 
   .about-container__h1, .about-container__text{

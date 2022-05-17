@@ -15,7 +15,7 @@ const Video = () => {
                 <div className="background-video__text background-video__text--animate">
                     <h1 className="background-video__title">David Benedette</h1>
                     <p className="background-video__description">Desarrollador Frontend</p>
-                    <a href={cv} className="btn-cv" download="CV-DavidBenedette.pdf">Descargar CV</a>
+                    <a href={cv} className="btn-cv" download="cvdavidbenedette.pdf">Descargar CV</a>
                 </div>
             </div>
         </div>

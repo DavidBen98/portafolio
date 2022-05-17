@@ -277,9 +277,9 @@ input[type="submit"]:hover{
 }
 
 .background-video__title{
+  width: 100%;
   font-size: 4rem;
   color: #fff;
-  width: 100%;
 }
 
 .background-video__description{

@@ -46,7 +46,7 @@ const Tech = () => {
                 </article>
 
                 <article className="tech-container__article">
-                    <img alt="Logo de PHP" src={php} className="tech-container__logo tech-container__logo--php" title=""/>
+                    <img alt="Logo de PHP" src={php} className="tech-container__logo" title=""/>
                     <h2 className="tech-container__h2 tech-container__h2--php" style={{textAlign:"center", width:"100%"}}>PHP</h2>
                 </article>
 

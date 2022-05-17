@@ -1,6 +1,6 @@
 import spaceVideo from "../../assets/space.mp4";
 import foto from "../../assets/perfil.jpg";
-import cv from "../../assets/CV.pdf";
+import cv from "../../assets/cv.pdf";
 
 const Video = () => {
     return ( 

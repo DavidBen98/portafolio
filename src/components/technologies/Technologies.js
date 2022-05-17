@@ -31,47 +31,47 @@ const Tech = () => {
                 </article>
 
                 <article className="tech-container__article">
-                    <img src={react} className="tech-container__logo" title=""/>
+                    <img alt="Logo de React" src={react} className="tech-container__logo" title=""/>
                     <h2 className="tech-container__h2">React</h2>
                 </article>
 
                 <article className="tech-container__article">
-                    <img src={html} className="tech-container__logo" title=""/>
+                    <img alt="Logo de HTML" src={html} className="tech-container__logo" title=""/>
                     <h2 className="tech-container__h2">HTML</h2>
                 </article>
 
                 <article className="tech-container__article">
-                    <img src={css} className="tech-container__logo" title=""/>
+                    <img alt="Logo de CSS" src={css} className="tech-container__logo" title=""/>
                     <h2 className="tech-container__h2">CSS</h2>
                 </article>
 
                 <article className="tech-container__article">
-                    <img src={php} className="tech-container__logo tech-container__logo--php" title=""/>
+                    <img alt="Logo de PHP" src={php} className="tech-container__logo tech-container__logo--php" title=""/>
                     <h2 className="tech-container__h2 tech-container__h2--php" style={{textAlign:"center", width:"100%"}}>PHP</h2>
                 </article>
 
                 <article className="tech-container__article">
-                    <img src={Mysql} className="tech-container__logo" title=""/>
+                    <img alt="Logo de MySQL" src={Mysql} className="tech-container__logo" title=""/>
                     <h2 className="tech-container__h2">MySQL</h2>
                 </article>
 
                 <article className="tech-container__article">
-                    <img src={sqlServer} className="tech-container__logo" title=""/>
+                    <img alt="Logo de SQLServer" src={sqlServer} className="tech-container__logo" title=""/>
                     <h2 className="tech-container__h2">SQLServer</h2>
                 </article>
 
                 <article className="tech-container__article">
-                    <img src={cSharp} className="tech-container__logo" title=""/>
+                    <img alt="Logo de C#" src={cSharp} className="tech-container__logo" title=""/>
                     <h2 className="tech-container__h2">C#</h2>
                 </article> 
 
                 <article className="tech-container__article">
-                    <img src={git} className="tech-container__logo" title=""/>
+                    <img alt="Logo de git" src={git} className="tech-container__logo" title=""/>
                     <h2 className="tech-container__h2">Git</h2>
                 </article> 
 
                 <article className="tech-container__article">
-                    <img src={github} className="tech-container__logo" title=""/>
+                    <img alt="Logo de github" src={github} className="tech-container__logo" title=""/>
                     <h2 className="tech-container__h2">Github</h2>
                 </article>              
             </div>

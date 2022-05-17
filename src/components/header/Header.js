@@ -24,17 +24,17 @@ const Header = () => {
                     </Link>
                 </div>
                 <div className="header__item">
-                    <Link to="projects" offset={active? -70 : -90} smooth={true} duration={500} onClick={()=> {if (active) handleClick()}}>
+                    <Link to="projects" offset={active? -70 : -130} smooth={true} duration={500} onClick={()=> {if (active) handleClick()}}>
                         Proyectos
                     </Link>
                 </div>
                 <div className="header__item">
-                    <Link to="about" offset={active? -50 : -100} smooth={true} duration={500} onClick={()=> {if (active) handleClick()}}>
+                    <Link to="about" offset={active? -50 : -50} smooth={true} duration={500} onClick={()=> {if (active) handleClick()}}>
                         Acerca de
                     </Link>
                 </div>
                 <div className="header__item">
-                    <Link to="contact" offset={active? -50 : -100} smooth={true} duration={500} onClick={()=> {if (active) handleClick()}}>
+                    <Link to="contact" offset={active? -50 : -50} smooth={true} duration={500} onClick={()=> {if (active) handleClick()}}>
                         Contacto
                     </Link>
                 </div>

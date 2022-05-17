@@ -7,6 +7,7 @@ import Cards from './components/projects/Cards';
 import Tech from './components/technologies/Technologies';
 import Footer from './components/footer/Footer';
 import 'aos/dist/aos.css';
+import ScrollToTop from './helpers/ScrollToTop';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <About/>
       <Contact/>
       <Footer/>
+      <ScrollToTop />
     </div>
   );
 }

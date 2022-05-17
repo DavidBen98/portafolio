@@ -10,7 +10,6 @@ const Footer = () => {
                 <p>David Benedette</p>
                 <p>Todos los derechos reservados ©</p>
             </div>
-            
         </section>
     );
 }

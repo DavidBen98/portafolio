@@ -768,6 +768,10 @@ input[type="submit"]:hover{
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .about-container{
+    align-content: center;
+  }
+
   .about-container__div, .contact-container{
     width: 90%;
     align-content: center;

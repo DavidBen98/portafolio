@@ -558,7 +558,7 @@ input[type="submit"]:hover{
     justify-content: center;
   }
 
-  .tech, .contact, .about{
+  .tech {
     height: auto;
   }
 
@@ -582,8 +582,8 @@ input[type="submit"]:hover{
   }
 
   .background-video__content{
-      justify-content: space-around;
-      top: 10vh;
+    justify-content: space-around;
+    top: 10vh;
   }
 
   .background-video__text{

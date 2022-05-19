@@ -31,8 +31,6 @@ const validationsForm = (form) => {
         errors.comments = "El campo 'Mensaje' no debe exceder los 255 caracteres";
     }
 
-    console.log(errors);
-
     return errors;
 }
 

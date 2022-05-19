@@ -770,6 +770,7 @@ input[type="submit"]:hover{
 
   .about-container__div, .contact-container{
     width: 90%;
+    align-content: center;
   }
 
   .about-container__h1, .about-container__text{

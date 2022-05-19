@@ -38,7 +38,8 @@ const validationsForm = (form) => {
 
 let styles = {
     fontWeight: "bold",
-    color: "#dc3545"
+    color: "#dc3545",
+    marginBottom: ".5rem",
 }
 
 const Form = () => {

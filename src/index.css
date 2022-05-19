@@ -121,6 +121,10 @@ input[type="submit"]:hover{
   height: 30px;
 }
 
+.btn__goHome svg{
+  margin: 0;
+}
+
 .header{
   display: flex;
   justify-content: space-between;

@@ -11,8 +11,6 @@ const ScrollToTop = () => {
         } else {
             setShowScrollTopButton(false);
         }
-
-        console.log (window.scrollY);
     }
 
     useEffect(() => {

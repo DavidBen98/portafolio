@@ -5,15 +5,24 @@ import { useState, useEffect } from "react";
 const ScrollToTop = () => {
     const [showScrollTopButton, setShowScrollTopButton] = useState(false);
 
+    function scrollToTop() {
+        if (window.scrollY > 300) {
+            setShowScrollTopButton(true);
+        } else {
+            setShowScrollTopButton(false);
+        }
+
+        console.log (window.scrollY);
+    }
+
     useEffect(() => {
-        window.addEventListener('scroll', () => {
-            if (window.screenY > 300) {
-                setShowScrollTopButton(false);
-            } else {
-                setShowScrollTopButton(true);
-            }
-        })
-    }, []);
+        window.addEventListener('scroll', scrollToTop);
+
+        return () => {
+            window.removeEventListener('scroll', scrollToTop)
+        }
+
+    }, [showScrollTopButton]);
 
     return ( 
         <>

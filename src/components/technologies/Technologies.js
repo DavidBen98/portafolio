@@ -16,6 +16,11 @@ const Tech = () => {
     useEffect(() => {
         AOS.init({
             duration: 2400,
+            disable: "tablet",
+        });
+
+        AOS.init({
+            duration: 2400,
             disable: "mobile",
         });
     }, []);

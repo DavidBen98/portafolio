@@ -7,6 +7,11 @@ const About = () => {
     useEffect(() => {
         AOS.init({
             duration: 2400,
+            disable: "tablet",
+        });
+
+        AOS.init({
+            duration: 2400,
             disable: "mobile",
         });
     }, []);
@@ -18,6 +23,7 @@ const About = () => {
                     <img 
                         src={foto} 
                         className="about-container__photo" 
+                        alt="Foto decorativa sobre mí"
                     />
                 </div>
                 <div className="about-container__div about-container__div--right">

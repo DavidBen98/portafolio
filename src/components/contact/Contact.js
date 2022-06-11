@@ -1,19 +1,11 @@
 import Form from "./Form";
+import AOSFunction from "../../helpers/AOSLibrary";
 import { useEffect } from "react";
-import  AOS  from 'aos';
 import 'aos/dist/aos.css';
 
 const Contact = () => {
     useEffect(() => {
-        AOS.init({
-            duration: 2400,
-            disable: "tablet",
-        });
-
-        AOS.init({
-            duration: 2400,
-            disable: "mobile",
-        });
+        AOSFunction();
     }, []);
 
     return ( 

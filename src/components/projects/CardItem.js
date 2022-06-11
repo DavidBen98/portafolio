@@ -1,19 +1,11 @@
 import { VscGithub } from 'react-icons/vsc';
-import { useEffect } from "react";
-import  AOS  from 'aos';
+import AOSFunction from "../../helpers/AOSLibrary";
 import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const CardItem = (props) => {
     useEffect(() => {
-        AOS.init({
-            duration: 2400,
-            disable: "tablet",
-        });
-
-        AOS.init({
-            duration: 2400,
-            disable: "mobile",
-        });
+        AOSFunction();
     }, []);
 
     return (

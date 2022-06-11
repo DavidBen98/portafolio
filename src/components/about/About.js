@@ -1,19 +1,11 @@
 import foto from "../../assets/about.png";
-import  AOS  from 'aos';
-import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import AOSFunction from "../../helpers/AOSLibrary";
+import 'aos/dist/aos.css';
 
 const About = () => {
     useEffect(() => {
-        AOS.init({
-            duration: 2400,
-            disable: "tablet",
-        });
-
-        AOS.init({
-            duration: 2400,
-            disable: "mobile",
-        });
+        AOSFunction();
     }, []);
 
     return ( 
@@ -34,7 +26,7 @@ const About = () => {
                     quería dedicar a esto desde que ví los problemas que se podían solucionar 
                     por medio de código. <br/>
                     Por esta razón estudié Tecnicatura en Computación, en donde aprendí diferentes tecnologías 
-                    como C#, SQL y JavaScript. 
+                    como JavaScript, PHP y SQL. 
                     Además, sigo formándome de manera autodidacta para obtener mi primer empleo en la industria IT.
                     </p>
                 </div>

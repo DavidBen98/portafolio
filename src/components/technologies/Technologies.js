@@ -7,22 +7,14 @@ import Mysql from "../../assets/logo-mysql.svg";
 import sqlServer from "../../assets/logo-sqlserver.svg";
 import cSharp from "../../assets/logo-c.svg";
 import git from "../../assets/logo-git.svg";
-import github from "../../assets/logo-github.svg";
-import  AOS  from 'aos';
-import 'aos/dist/aos.css';
+import typescript from "../../assets/logo-typescript.svg";
 import { useEffect } from "react";
+import AOSFunction from "../../helpers/AOSLibrary";
+import 'aos/dist/aos.css';
 
 const Tech = () => {
     useEffect(() => {
-        AOS.init({
-            duration: 2400,
-            disable: "tablet",
-        });
-
-        AOS.init({
-            duration: 2400,
-            disable: "mobile",
-        });
+        AOSFunction();
     }, []);
 
     return ( 
@@ -34,6 +26,11 @@ const Tech = () => {
                     <img alt="Logo de JavaScript" src={javascript} className="tech-container__logo"/>
                     <h2 className="tech-container__h2">JavaScript</h2>
                 </article>
+
+                <article className="tech-container__article">
+                    <img alt="Logo de github" src={typescript} className="tech-container__logo" title=""/>
+                    <h2 className="tech-container__h2">Typescript</h2>
+                </article>  
 
                 <article className="tech-container__article">
                     <img alt="Logo de React" src={react} className="tech-container__logo" title=""/>
@@ -73,12 +70,7 @@ const Tech = () => {
                 <article className="tech-container__article">
                     <img alt="Logo de git" src={git} className="tech-container__logo" title=""/>
                     <h2 className="tech-container__h2">Git</h2>
-                </article> 
-
-                <article className="tech-container__article">
-                    <img alt="Logo de github" src={github} className="tech-container__logo" title=""/>
-                    <h2 className="tech-container__h2">Github</h2>
-                </article>              
+                </article>          
             </div>
         </section>
     );

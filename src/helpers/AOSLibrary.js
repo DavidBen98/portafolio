@@ -6,11 +6,6 @@ const AOSFunction = () => {
         disable: "tablet",
         disable: "mobile",
     });
-    
-    // AOS.init({
-    //     duration: 800,
-    //     disable: "mobile",
-    // });
 }
 
 export default AOSFunction;

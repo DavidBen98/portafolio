@@ -15,7 +15,7 @@ const Cards = () => {
             <CardItem
                 img={ecommerce}
                 title="E-commerce"
-                description="Contiene carrito de compras, registro y login con redes sociales, 
+                description="Contiene carrito de compras, registro de usuarios, 
                 compra con mercado pago..."
                 link="https://github.com/DavidBen98/sitio_web_php_js"
                 project="https://mueblesgiannis.000webhostapp.com/"

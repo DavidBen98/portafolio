@@ -1,10 +1,11 @@
 import AOS from 'aos';
 
-const AOSFunction = () => {
+const AOSFunction = (a) => {
+    var {width} = a;
+
     AOS.init({
-        duration: 800,
-        disable: "tablet",
-        disable: "mobile",
+        duration: 300,
+        disable: width <= 1300 ? true : false, 
     });
 }
 

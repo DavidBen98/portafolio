@@ -1,13 +1,7 @@
 import { VscGithub } from 'react-icons/vsc';
-import AOSFunction from "../../helpers/AOSLibrary";
 import 'aos/dist/aos.css';
-import { useEffect } from "react";
 
 const CardItem = (props) => {
-    useEffect(() => {
-        AOSFunction();
-    }, []);
-
     return (
         <div className="card" data-aos="slide-up">
             <div className="card__body">
@@ -15,6 +9,7 @@ const CardItem = (props) => {
                         src={props.img} 
                         className="card__image" 
                         title={props.title}
+                        alt={props.title}
                     />
                 <h2 className="card__title">{props.title}</h2>
                 <p className="card__description">{props.description}</p>

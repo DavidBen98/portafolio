@@ -1,5 +1,4 @@
 import { AiFillGithub, AiFillLinkedin, AiTwotoneMail } from 'react-icons/ai';
-import { Link } from "react-router-dom";
 
 const Social = () => {
     return ( 

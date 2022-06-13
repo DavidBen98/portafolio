@@ -9,8 +9,16 @@ import Footer from './components/footer/Footer';
 import 'aos/dist/aos.css';
 import ScrollToTop from './helpers/ScrollToTop';
 import BackgroundAnimation from './components/home/BackgroundAnimation';
+import AOSFunction from "./helpers/AOSLibrary";
+import useScreenSize from './hooks/useScreenSize';
+import { useEffect } from "react";
 
 function App() {
+    const widthSize = useScreenSize();
+
+    useEffect(() => {
+        AOSFunction(widthSize);
+    }, [widthSize]);
 
   return (
     <div>

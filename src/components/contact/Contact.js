@@ -1,13 +1,7 @@
 import Form from "./Form";
-import AOSFunction from "../../helpers/AOSLibrary";
-import { useEffect } from "react";
 import 'aos/dist/aos.css';
 
 const Contact = () => {
-    useEffect(() => {
-        AOSFunction();
-    }, []);
-
     return ( 
         <section className="contact" data-aos="fade-left">
             <div className="contact-container">

@@ -1,13 +1,7 @@
 import foto from "../../assets/about.png";
-import { useEffect } from "react";
-import AOSFunction from "../../helpers/AOSLibrary";
 import 'aos/dist/aos.css';
 
 const About = () => {
-    useEffect(() => {
-        AOSFunction();
-    }, []);
-
     return ( 
         <section className="about" data-aos="fade-right">
             <div className="about-container">

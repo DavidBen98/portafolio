@@ -8,15 +8,9 @@ import sqlServer from "../../assets/logo-sqlserver.svg";
 import cSharp from "../../assets/logo-c.svg";
 import git from "../../assets/logo-git.svg";
 import typescript from "../../assets/logo-typescript.svg";
-import { useEffect } from "react";
-import AOSFunction from "../../helpers/AOSLibrary";
 import 'aos/dist/aos.css';
 
 const Tech = () => {
-    useEffect(() => {
-        AOSFunction();
-    }, []);
-
     return ( 
         <section className="tech" data-aos="fade-left">
             <div className="tech-container">

@@ -12,7 +12,7 @@ const Contact = () => {
         <section className="contact" data-aos="fade-left">
             <div className="contact-container">
                 <div className="contact-container__div">
-                    <h2>Contacta conmigo</h2>
+                    <h2 className="contact-container__h1">Contacta conmigo</h2>
                     <p className="contact-container__text">
                         Gracias por llegar hasta aquí.
                         Si consideras que puedo aportar a tu equipo,

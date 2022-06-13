@@ -1,13 +1,12 @@
-import spaceVideo from "../../assets/space.mp4";
 import foto from "../../assets/perfil.jpg";
 import cv from "../../assets/CV.pdf";
 
 const Video = () => {
     return ( 
         <div className="background-video" >
-            <video autoPlay loop muted className="background-video__video">
+            {/* <video autoPlay loop muted className="background-video__video">
                 <source src={spaceVideo} type="video/mp4" />
-            </video>
+            </video> */}
             <div className="background-video__content">
                 <div className="background-video__photo">
                     <img src={foto} alt="Foto de perfil" className="background-video__img"/>
